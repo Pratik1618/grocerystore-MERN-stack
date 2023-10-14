@@ -19,8 +19,8 @@ const products = [
     color: '',
     price: '$90.00',
     quantity: 10,
-    imageSrc: 'https://th.bing.com/th/id/OIP.Q0Rg9Bpbb9Bxlwg8Pci0NQHaHa?w=190&h=190&c=7&r=0&o=5&dpr=1.3&pid=1.7',
-    imageAlt: 'Salmon orange fabric pouch with match zipper, gray zipper pull, and adjustable hip belt.',
+    thumbnail: 'https://th.bing.com/th/id/OIP.Q0Rg9Bpbb9Bxlwg8Pci0NQHaHa?w=190&h=190&c=7&r=0&o=5&dpr=1.3&pid=1.7',
+    title: 'Salmon orange fabric pouch with match zipper, gray zipper pull, and adjustable hip belt.',
   },
   {
     id: 2,
@@ -29,8 +29,8 @@ const products = [
     color: '',
     price: '$32.00',
     quantity: 1,
-    imageSrc: 'https://th.bing.com/th/id/OIG.7zEF3qauMhBytVFKBBPz?pid=ImgGn',
-    imageAlt:
+    thumbnail: 'https://th.bing.com/th/id/OIG.7zEF3qauMhBytVFKBBPz?pid=ImgGn',
+    title:
       'Front of satchel with blue canvas body, black straps and handle, drawstring top, and front zipper pouch.',
   },
   {
@@ -40,8 +40,8 @@ const products = [
     color: '',
     price: '$32.00',
     quantity: 1,
-    imageSrc: 'https://th.bing.com/th/id/OIG.7zEF3qauMhBytVFKBBPz?pid=ImgGn',
-    imageAlt:
+    thumbnail: 'https://th.bing.com/th/id/OIG.7zEF3qauMhBytVFKBBPz?pid=ImgGn',
+    title:
       'Front of satchel with blue canvas body, black straps and handle, drawstring top, and front zipper pouch.',
   },
   // More products...
@@ -68,8 +68,8 @@ export default function Cart() {
                               <li key={product.id} className="flex py-6">
                                 <div className="h-24 w-24 flex-shrink-0 overflow-hidden rounded-md border border-gray-200">
                                   <img
-                                    src={product.imageSrc}
-                                    alt={product.imageAlt}
+                                    src={product.thumbnail}
+                                    alt={product.title}
                                     className="h-full w-full object-cover object-center"
                                   />
                                 </div>
