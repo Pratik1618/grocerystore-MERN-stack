@@ -22,6 +22,17 @@ const products = [
     imageAlt:
       'Front of satchel with blue canvas body, black straps and handle, drawstring top, and front zipper pouch.',
   },
+  {
+    id: 3,
+    name: 'Cabbage',
+    href: '#',
+    color: '',
+    price: '$32.00',
+    quantity: 1,
+    imageSrc: 'https://th.bing.com/th/id/OIG.7zEF3qauMhBytVFKBBPz?pid=ImgGn',
+    imageAlt:
+      'Front of satchel with blue canvas body, black straps and handle, drawstring top, and front zipper pouch.',
+  },
   // More products...
 ]
 const addresses = [
